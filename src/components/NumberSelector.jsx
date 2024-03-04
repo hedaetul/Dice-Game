@@ -43,7 +43,7 @@ const NumberSelector = ({
 
   const numberSelectorHandler = (value) => {
     setSelectedNumber(value);
-    setError(error);
+    setError('');
   };
 
   return (
